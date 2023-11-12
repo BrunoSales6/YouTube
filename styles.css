@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+*{
+    font-family:'Robto', sans-serif;
+}
+.topo{
+    width: 98%;
+    padding: 12px 20px;
+    height: 20px;
+}
+
+.topo-esquerda, .icon-esquerda{
+    float: left;
+    cursor: pointer;
+}
+
+.imagem-esquerda{
+    width: 100%;
+    max-width: 80px;
+    margin-left: 20px;
+    clear: both;
+}
+
+.search{
+    padding: 5px 10px;
+    width: 100%;  
+    max-width: 600px;
+    margin-left:160px ;
+    margin-top: -4px;
+    outline-color: blue;
+    float: left;
+    
+}
+
+.botao{
+    padding: 5px 10px ;
+    float: left;
+    margin-top: -4px;
+    cursor: pointer;
+
+ 
+}
+.mic{
+    margin-left: 12px;
+    margin-top: 3px;;
+    float: left;
+    font-size: 18px;
+    cursor: pointer;
+ }
+
+
+.grip-v{
+    margin-left: 80px;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+
+}
+
+.camera{
+    float: left;
+    font-size: 18px;
+    margin-left: 80px;
+    cursor: pointer;
+
+}
+
+
+
+
+.login{
+    float: left;
+    margin-left: 20px;
+    border:1px solid blue;
+    color: blue;
+    background-color:white;
+    padding: 5px 20px;
+    margin-top: -4px;
+    cursor: pointer;
+    
+
+}
+
+.user{
+    margin-right: 4px;
+    float: left;
+    font-size: 15px;
+}
+
+
+
+.lateral-esquerda{
+    width: 100%;
+    max-width: 250px;
+    height: 1000px;
+    float: left;
+    
+}
+
+.item-lateral-active{
+    width: 220px;
+    padding: 15px;
+    background-color: rgba(126, 126, 126,0.2);
+    color: black;
+    font-size: 16px !important;
+    cursor: pointer;
+}
+
+.icone-lateral-active{
+    color: red;
+    margin-right: 20px;
+}
+
+.item-lateral-active:hover{
+    background-color: rgba(126, 126, 126,0.3);
+}
+.item-lateral{
+    width: 220px;
+    padding: 15px;
+    color: black;
+    font-size: 16px !important;
+    cursor: pointer;
+    
+}
+.item-lateral:hover{
+    background-color: rgba(126, 126, 126,0.2);
+}
+.item-lateral-texto{
+    width: 220px;
+    padding: 15px;
+    color: black;
+    font-size: 16px !important;
+    margin-bottom: -10px;
+    
+}
+
+
+
+.icone-lateral{
+    margin-right: 20px;
+}
+
+p{
+    text-align: left;
+}
+
+.texto{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.meio{
+    max-width: 100%;
+    
+}
+
+.separador{
+   margin-top: -0.4px;
+}
+
+.item-meio-active{
+    margin-left: 20px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.item-meio{
+    height: 30px;
+    margin-left: 10px;
+    background-color:rgba(126, 126, 126,0.2) ;
+    color:black;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+
+}
+
+.anuncio{
+    background-image:url(/imagens/baner.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 1040px;
+    margin-left: 15px;
+    margin-top: 10px;
+    max-width: 100%;
+    float: left;
+}
+
+.music{
+    padding: 20px;
+    height: 30px;
+}
+.music-text{
+    color: white;
+    padding: 20px;
+    margin-top: -30px;
+    font-size: 21px;
+}
+
+.button-anuncio{
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: -20px;
+    cursor: pointer;
+
+}
+
+.xzinho{
+    float: right;
+    background-color: black;
+    color:white;
+    border: 1px solid black;
+    margin-top: -150px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+.item-video{
+    margin-top: -10px;
+    width: 100%;
+    max-width: 220px;
+    height: 180px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.thumb{
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.time{
+    margin-top: -23px;
+    float: right;
+    position: relative;
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.canal{
+    margin-right: 9px;
+    margin-top: 5px;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    float: left;
+    cursor: pointer;
+    
+}
+
+.titulo{
+    margin-left:2px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.info{
+    margin-left:50px;
+    font-size: 12px;
+    color: gray;
+    margin-top: -10px;
+
+
+}
